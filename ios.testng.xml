@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<suite name="Suite" parallel="tests" thread-count="5" data-provider-thread-count="1">-->
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Listeners.MobileTestListener"/>
+    </listeners>
+    <parameter name="environment" value="Windows" />
+    <test name="iOS">
+        <parameter name="platformName" value="iOS" />
+        <parameter name="deviceIndex" value="0"/>
+        <classes>
+            <class name="runner.MobileTestRunner"/>
+        </classes>
+    </test>
+
+    <parameter name="environment" value="Windows" />
+    <test name="iOS2">
+        <parameter name="platformName" value="iOS" />
+        <parameter name="deviceIndex" value="1"/>
+        <classes>
+            <class name="runner.MobileTestRunner"/>
+        </classes>
+    </test>
+
+</suite>

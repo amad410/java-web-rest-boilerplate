@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29717" started-at="2022-10-25T14:55:16Z" finished-at="2022-10-25T14:55:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="MobileTestRunner.scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="scenario" class="runner.MobileTestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Android" duration-ms="29717" started-at="2022-10-25T14:55:16Z" finished-at="2022-10-25T14:55:46Z">
+      <class name="runner.MobileTestRunner">
+        <test-method status="PASS" signature="setUpEnvironment(java.lang.String)[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="setUpEnvironment" is-config="true" duration-ms="7" started-at="2022-10-25T14:55:16Z" finished-at="2022-10-25T14:55:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpEnvironment -->
+        <test-method status="PASS" signature="TestSetup(java.lang.String, java.lang.String)[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="TestSetup" is-config="true" duration-ms="27952" started-at="2022-10-25T14:55:16Z" finished-at="2022-10-25T14:55:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="setUpClass" is-config="true" duration-ms="267" started-at="2022-10-25T14:55:44Z" finished-at="2022-10-25T14:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="CreateTest(java.lang.reflect.Method)[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="CreateTest" is-config="true" duration-ms="1" started-at="2022-10-25T14:55:45Z" finished-at="2022-10-25T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void runner.MobileTestRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTest -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="scenario" duration-ms="394" started-at="2022-10-25T14:55:45Z" description="Runs Cucumber Scenarios" data-provider="features" finished-at="2022-10-25T14:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SampleMobileApp Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sample feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="TearDown" is-config="true" duration-ms="810" started-at="2022-10-25T14:55:45Z" finished-at="2022-10-25T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Cleanup()[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="Cleanup" is-config="true" duration-ms="1" started-at="2022-10-25T14:55:46Z" finished-at="2022-10-25T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2022-10-25T14:55:46Z" finished-at="2022-10-25T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="TestTeardown()[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="TestTeardown" is-config="true" duration-ms="1" started-at="2022-10-25T14:55:46Z" finished-at="2022-10-25T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTeardown -->
+        <test-method status="PASS" signature="tearDownEnvironment()[pri:0, instance:runner.MobileTestRunner@75f9eccc]" name="tearDownEnvironment" is-config="true" duration-ms="0" started-at="2022-10-25T14:55:46Z" finished-at="2022-10-25T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownEnvironment -->
+      </class> <!-- runner.MobileTestRunner -->
+    </test> <!-- Android -->
+  </suite> <!-- Suite -->
+</testng-results>

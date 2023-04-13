@@ -1,0 +1,34 @@
+{
+  "server": "@hub-cloud.browserstack.com/wd/hub",
+  "ios-app": "",
+  "android-app": "",
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "saucelabs-build-1",
+    "name": "first_test"
+  },
+  "Android": [
+    {
+      "appium:deviceName": "Samsung Galaxy S21",
+      "appium:deviceOrientation": "portrait",
+      "appium:platformVersion": "11.0"
+    },
+    {
+      "appium:deviceName": "Samsung Galaxy A51",
+      "appium:deviceOrientation": "portrait",
+      "appium:platformVersion": "10.0"
+    }
+  ],
+  "iOS": [
+    {
+      "appium:deviceName": "iPhone 13",
+      "appium:deviceOrientation": "portrait",
+      "appium:platformVersion": "15"
+    },
+    {
+      "appium:deviceName": "iPhone 12 Pro Max",
+      "appium:deviceOrientation": "portrait",
+      "appium:platformVersion": "14"
+    }
+  ]
+}
